@@ -1,4 +1,4 @@
-
+import {cart} from '../data/cart.js';
 // Generating HTML
 
 let productsHTML = '';
@@ -85,8 +85,7 @@ document.querySelectorAll('.js-add-to-cart')
             });
 
             document.querySelector('.js-cart-quantity').innerHTML = cartQuatity;
-            
-            console.log(cartQuatity);   
+              
             
         });
     });
